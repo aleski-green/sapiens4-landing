@@ -4,7 +4,7 @@
 
 ## Product facts
 
-- Sapis collaborate through chat, specialist delegation, notes, tasks, and computer access in CORPORA.
+- Sapis collaborate through chat, specialist delegation, notes, tasks, automated routines, and computer access in CORPORA.
 - The workspace and execution run on the user's computer. Default Codex model requests use OpenAI services; local does not mean offline inference.
 - Windows supports ARM64 and x64.
 - Community software is free for permitted uses under the Sustainable Use License, which is not an OSI-approved open-source license. Provider subscriptions, API usage, and relay hosting are separate costs.
