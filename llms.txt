@@ -9,7 +9,7 @@
 - Windows supports ARM64 and x64.
 - Community software is free for permitted uses under the Sustainable Use License, which is not an OSI-approved open-source license. Provider subscriptions, API usage, and relay hosting are separate costs.
 - Alternative engines are in preview on the kimi-engine branch. Compatible open-weight models and other subscriptions depend on engine/provider configuration. This is not universal model compatibility.
-- Remote control is a preview on the codex/remote-control-mvp branch. A phone or another laptop can use the local workspace through a paired browser. The local computer must remain running and reachable. One paired remote device is supported at a time.
+- Remote control is a preview on the codex/remote-control-mvp branch. An iOS or Android device, or another paired laptop or PC, can use the local workspace through a browser. The local computer must remain running and reachable. One paired remote device is supported at a time.
 - Remote application content is end-to-end encrypted between devices through a relay, not a direct P2P network connection. The relay can observe traffic metadata. Users can host the relay and remote web app themselves; the web app host remains trusted. The preview is not independently security-audited.
 - Sapiens4 is independent of Grok Bot and xAI.
 

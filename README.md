@@ -12,4 +12,4 @@ The gradient logo comes from the Sapiens4 app’s `web/shell/bootstrap.js`. The 
 
 Google Fonts supplies DM Sans and IBM Plex Mono, with local font fallbacks.
 
-SEO/GEO additions are limited to head metadata, WebSite/SoftwareApplication JSON-LD, `robots.txt`, `sitemap.xml`, and `/llms.txt`. The visible landing-page copy, styling, and interactions are unchanged. Discovery files distinguish preview branches from the main release.
+SEO/GEO additions are limited to head metadata, WebSite/SoftwareApplication JSON-LD, `robots.txt`, `sitemap.xml`, and `/llms.txt`. Visible changes are limited to macOS/Windows mentions, a Windows setup link, a macOS command label, and two short FAQ entries for model choice and remote control. Styling, interactions, existing sections, and the remaining copy are unchanged. Grok Bot positioning stays in head metadata and `/llms.txt`. Discovery files distinguish preview branches from the main release.
