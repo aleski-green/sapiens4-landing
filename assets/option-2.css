@@ -114,3 +114,23 @@
 }
 .playful .ticker-group { min-width:100vw;justify-content:space-around; }
 @media(min-width:801px){.playful .ticker-group { min-width:100vw; }}
+/* Product facts and platform setup inherit the existing landing palette. */
+.platform-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px;font:11px/1.5 var(--mono)}
+.platform-tags>span,.platform-tags>a{padding:6px 10px;border:1px solid var(--line);border-radius:4px}
+.platform-tags>a:hover{color:var(--accent)}
+.possibilities{padding:20px 0 58px}
+.possibilities .section-heading h2{font-size:clamp(32px,3.6vw,52px)}
+.choice-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.choice-card{border-top:1px solid var(--line);padding-top:24px;min-width:0}
+.choice-card .eyebrow{color:var(--muted);margin-bottom:20px}
+.choice-card h3{font-size:28px;line-height:1.15;margin-bottom:18px}
+.choice-card p{font-size:14px;line-height:1.8;margin-bottom:15px}
+.choice-card .text-link{display:inline-block;font-size:12px;margin-top:6px;text-decoration:underline;text-underline-offset:4px}
+.setup-options{display:grid;gap:16px;min-width:0}
+.setup-links{display:flex;flex-direction:column;align-items:flex-start;gap:10px;margin-bottom:22px}
+.playful .start .setup-note{font-size:13px;line-height:1.8}
+.setup-box pre{max-width:100%;overflow-x:auto;white-space:pre-wrap;overflow-wrap:anywhere}
+.setup-box .code-title{gap:12px;flex-wrap:wrap}
+.questions p{overflow-wrap:anywhere}
+.footer>span a{margin-left:12px;text-decoration:underline;text-underline-offset:4px}
+@media(max-width:800px){.choice-grid{grid-template-columns:1fr;gap:30px}.choice-card h3 br{display:none}.choice-card p{max-width:65ch}.possibilities{padding-bottom:40px}.platform-tags{font-size:10px}}

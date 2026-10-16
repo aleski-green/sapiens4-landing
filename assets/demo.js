@@ -27,7 +27,7 @@ document.querySelectorAll('[data-demo]').forEach(demo => {
   function selectTab(button){tabs.forEach(tab=>{const selected=tab===button;tab.setAttribute('aria-selected',String(selected));tab.tabIndex=selected?0:-1;demo.querySelector('#panel-'+tab.dataset.tab).hidden=!selected;});}
   tabs.forEach((button,index)=>{button.addEventListener('click',()=>selectTab(button));button.addEventListener('keydown',event=>{let next;if(event.key==='ArrowRight')next=(index+1)%tabs.length;if(event.key==='ArrowLeft')next=(index+tabs.length-1)%tabs.length;if(event.key==='Home')next=0;if(event.key==='End')next=tabs.length-1;if(next!==undefined){event.preventDefault();selectTab(tabs[next]);tabs[next].focus();}});});
 });
-document.querySelectorAll('.copy').forEach(button=>button.addEventListener('click',async()=>{const status=button.closest('.setup-box').querySelector('.copy-status');try{await navigator.clipboard.writeText(document.querySelector('#setup-code').textContent);button.textContent='Copied ✓';status.textContent='Setup commands copied';setTimeout(()=>button.textContent='Copy commands ↗',2500);}catch{status.textContent='Select the commands above to copy them';}}));
+document.querySelectorAll('.copy').forEach(button=>button.addEventListener('click',async()=>{const status=button.closest('.setup-box').querySelector('.copy-status');try{await navigator.clipboard.writeText(document.getElementById(button.dataset.copy).textContent);button.textContent='Copied ✓';status.textContent='Setup commands copied';setTimeout(()=>button.textContent='Copy commands ↗',2500);}catch{status.textContent='Select the commands above to copy them';}}));
 
 const tickerButton=document.querySelector('.ticker-pause');
 if(tickerButton) tickerButton.addEventListener('click',()=>{
