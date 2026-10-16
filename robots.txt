@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sapiens4.ai/sitemap.xml

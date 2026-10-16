@@ -11,3 +11,5 @@ The sun/moon control defaults to light and remembers a visitor’s explicit choi
 The gradient logo comes from the Sapiens4 app’s `web/shell/bootstrap.js`. The favicon retains its white background; the page mark removes only the background rectangle. Product structure and feature descriptions are based on `aleski-green/sapiens4` revision `a674948`.
 
 Google Fonts supplies DM Sans and IBM Plex Mono, with local font fallbacks.
+
+SEO/GEO additions are limited to head metadata, WebSite/SoftwareApplication JSON-LD, `robots.txt`, `sitemap.xml`, and `/llms.txt`. The visible landing-page copy, styling, and interactions are unchanged. Discovery files distinguish preview branches from the main release.
