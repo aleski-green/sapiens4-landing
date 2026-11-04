@@ -4,12 +4,14 @@ Production: https://sapiens4.ai/
 
 Static HTML, CSS, and JavaScript, published by GitHub Pages from `main` at the repository root. No build step is required. Keep `CNAME` set to `sapiens4.ai`.
 
-Run a local preview with `python3 -m http.server 8768` and open http://127.0.0.1:8768/.
+Run a local preview with `python3 -m http.server 8769` and open http://127.0.0.1:8769/.
 
-The sun/moon control defaults to light and remembers a visitor’s explicit choice in localStorage. The ticker supports pause/resume and respects reduced motion. Workspace content is an interactive illustration, with no connection to a live Sapiens4 instance.
+The four Sapis are Chiefy (team lead), Curio (initiative master), Buildly (maker), and Nerd (PC fixes and organization). Their original cool-crew artwork is in `assets/mascot-crew.png`; CSS positions each character without modifying the source image. Page accents use the four card colors and neutral grays. Header branding is black in light mode and white in dark mode; the footer uses a smaller monochrome mark.
 
-The gradient logo comes from the Sapiens4 app’s `web/shell/bootstrap.js`. The favicon is a black lowercase s on pale neon pink; its filenames are distinct from the original favicon to refresh browser caches. The page mark retains the original gradient symbol without a background rectangle. Product structure and feature descriptions are based on `aleski-green/sapiens4` revision `a674948`.
+Each page opening randomly starts dark (70%) or light (30%). The sun/moon control changes the theme for the current visit without persisting it. The ticker supports pause/resume and respects reduced motion.
 
-Google Fonts supplies DM Sans and IBM Plex Mono, with local font fallbacks.
+The Corpora prototype is an interactive illustration, with no connection to a live Sapiens4 instance. It retains its three-column desktop layout on all devices. Below 1120px of available space, the entire prototype scales proportionally to fit. Safe-area insets protect the fixed header and page content on iOS.
 
-SEO/GEO additions are limited to head metadata, WebSite/SoftwareApplication JSON-LD, `robots.txt`, `sitemap.xml`, and `/llms.txt`. Visible changes are limited to macOS/Windows mentions, a Windows setup link, a macOS command label, and two short FAQ entries for model choice and remote control. Styling, interactions, existing sections, and the remaining copy are unchanged. Grok Bot positioning stays in head metadata and `/llms.txt`. Discovery files distinguish preview branches from the main release.
+The macOS, Windows, and Linux setup controls open the same prompt-copy dialog. The installer prompt explicitly points to https://github.com/sapiens4ai/sapiens4 and asks the user's harness to follow the setup guide for their OS.
+
+Google Fonts supplies DM Sans and IBM Plex Mono, with local font fallbacks. Discovery files include WebSite/SoftwareApplication JSON-LD, `robots.txt`, `sitemap.xml`, and `/llms.txt`.

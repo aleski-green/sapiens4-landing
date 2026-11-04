@@ -8,17 +8,17 @@
 - The workspace and execution run on the user's computer. Default Codex model requests use OpenAI services; local does not mean offline inference.
 - Windows supports ARM64 and x64.
 - Community software is free for permitted uses under the Sustainable Use License, which is not an OSI-approved open-source license. Provider subscriptions, API usage, and relay hosting are separate costs.
-- Alternative engines are in preview on the kimi-engine branch. Compatible open-weight models and other subscriptions depend on engine/provider configuration. This is not universal model compatibility.
-- Remote control is a preview on the codex/remote-control-mvp branch. An iOS or Android device, or another paired laptop or PC, can use the local workspace through a browser. The local computer must remain running and reachable. One paired remote device is supported at a time.
+- Codex CLI runs model calls. Consult the current configuration guide for supported model settings.
+- Remote control setup is documented in docs/remote.md. An iOS or Android device, or another paired laptop or PC, can use the local workspace through a browser. The local computer must remain running and reachable. One paired remote device is supported at a time.
 - Remote application content is end-to-end encrypted between devices through a relay, not a direct P2P network connection. The relay can observe traffic metadata. Users can host the relay and remote web app themselves; the web app host remains trusted. The preview is not independently security-audited.
 - Sapiens4 is independent of Grok Bot and xAI.
 
 ## Canonical resources
 
 - [Product overview and FAQ](https://sapiens4.ai/)
-- [Source and main release setup](https://github.com/aleski-green/sapiens4)
-- [macOS setup](https://github.com/aleski-green/sapiens4/blob/main/macos/README.md)
-- [Windows setup](https://github.com/aleski-green/sapiens4/blob/main/windows/README.md)
-- [Model engine preview](https://github.com/aleski-green/sapiens4/tree/kimi-engine#harness-adapters)
-- [Remote control preview and self-hosting](https://github.com/aleski-green/sapiens4/blob/codex/remote-control-mvp/documentation/specs/RemoteMVP.md)
-- [License and permitted uses](https://github.com/aleski-green/sapiens4/blob/main/license/LICENSING.md)
+- [Source and main release setup](https://github.com/sapiens4ai/sapiens4)
+- [macOS setup](https://github.com/sapiens4ai/sapiens4/blob/main/environments/macos/README.md)
+- [Windows setup](https://github.com/sapiens4ai/sapiens4/blob/main/environments/windows/README.md)
+- [Model configuration](https://github.com/sapiens4ai/sapiens4/blob/main/docs/reference.md)
+- [Remote control preview and self-hosting](https://github.com/sapiens4ai/sapiens4/blob/main/docs/remote.md)
+- [License and permitted uses](https://github.com/sapiens4ai/sapiens4/blob/main/license/LICENSING.md)
